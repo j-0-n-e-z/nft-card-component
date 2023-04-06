@@ -9,9 +9,6 @@ module.exports = {
 				mainBg: 'hsl(217, 54%, 11%)',
 				cardBg: 'hsl(216, 50%, 16%)',
 				line: 'hsl(215, 32%, 27%)'
-			},
-			fontSize: {
-				base: '18px'
 			}
 		}
 	},
