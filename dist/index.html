@@ -8,10 +8,10 @@
 		<link href="./output.css" rel="stylesheet" />
 	</head>
 	<body>
-		<main class="w-full h-screen grid place-items-center bg-mainBg">
+		<main class="w-full h-screen grid place-items-center bg-main">
 			<h1 class="fixed scale-0">NFT Card</h1>
 			<article
-				class="font-Outfit sm:w-[350px] sm:h-[600px] w-[330px] h-[550px] flex flex-col bg-cardBg rounded-2xl p-6 shadow-lg"
+				class="font-Outfit sm:w-[350px] sm:h-[600px] w-[330px] h-[550px] flex flex-col bg-card rounded-2xl p-6 shadow-lg"
 			>
 				<div
 					class="group/item rounded-xl overflow-hidden sm:mb-7 mb-6 cursor-pointer relative"
@@ -21,7 +21,7 @@
 						class="absolute top-0 opacity-0 group-hover/item:opacity-100 bg-cyan/40 w-full h-full transition duration-300 grid place-items-center"
 						href="#"
 						target="_blank"
-						aria-label="equilibrium"
+						aria-label="Equilibrium #3429"
 					>
 						<img src="./assets/icon-view.svg" alt="view" />
 					</a>
@@ -29,7 +29,9 @@
 				<h2
 					class="font-bold text-[22px] leading-7 text-white mb-[14px] hover:text-cyan transition cursor-pointer"
 				>
-					<a>Equilibrium #3429</a>
+					<a href="#" target="_blank" aria-label="Equilibrium #3429"
+						>Equilibrium #3429</a
+					>
 				</h2>
 				<p
 					class="text-grayishBlue sm:text-lg text-md font-light text-softBlue sm:mb-5 mb-4"
@@ -40,16 +42,14 @@
 					<div class="info-item">
 						<img src="./assets/icon-ethereum.svg" alt="ethereum" />
 						<span
-							class="text-cyan sm:text-medium text-[15px] font-semibold sm:mt-0 mt-[2px]"
+							class="text-cyan sm:text-medium font-semibold sm:mt-0 mt-[2px]"
 						>
 							0.041 ETH
 						</span>
 					</div>
 					<div class="info-item">
 						<img src="./assets/icon-clock.svg" alt="clock" />
-						<span class="text-softBlue mr-1 sm:text-medium text-[15px]">
-							3 days left
-						</span>
+						<span class="text-softBlue mr-1 sm:text-medium"> 3 days left</span>
 					</div>
 				</div>
 				<hr class="sm:visible invisible bg-line h-[1px] border-0 mb-4" />
@@ -59,13 +59,16 @@
 						src="./assets/image-avatar.png"
 						alt="avatar"
 					/>
-					<span class="text-softBlue ml-4 sm:text-base text-[15px]">
-						Creation of
+					<div class="text-softBlue ml-4 sm:text-[14px] flex gap-x-1">
+						<span>Creation of</span>
 						<a
 							class="font-normal text-white hover:text-cyan transition cursor-pointer"
+							href="#"
+							target="_blank"
+							aria-label="Jules Wyvern"
 							>Jules Wyvern</a
 						>
-					</span>
+					</div>
 				</div>
 			</article>
 		</main>
